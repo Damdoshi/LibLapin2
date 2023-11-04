@@ -1,6 +1,7 @@
 # LibLapin2
 
 Ce projet n'est pas commencé.
+Ce dépot est temporaire et une fois LibLapin2 stabilisée et complétée suffisament pour remplacer LibLapin1, LibLapin1 verra son contenu mis à jour avec celui de LibLapin2.
 
 Quelques idées peuvent être trouvées ici https://github.com/Damdoshi/LibLapin/projects/7
 
@@ -54,4 +55,6 @@ Le système de "scream log", "scream error" est beaucoup trop verbeux, beaucoup 
 Il faut inventer un nouveau mécanisme qui permette d'améliorer ces éléments. L'un des principaux défaut est le mélange des erreurs de type "impossible de faire X",
 et des erreurs de type "je ne trouve pas X" (dans une liste ou finalement, bah, X sera trouvé, sauf que chaque essai donne un log...). Peut etre que la fonction appelante
 devrait être responsable d'indiquer si oui ou non le log interesse?
+
+
 
