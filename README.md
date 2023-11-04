@@ -12,4 +12,5 @@ Un autre objectif est d'exploiter plus fréquemment C++ et de limiter les interf
 La bibliothèque exterieure demeurera C.
 
 Un autre objectif est d'atteindre une couverture de test frisant les 100%, principalement pour le module de configuration.
+Dabsic doit devenir plus fiable et intégrer l'ensemble des éléments précédents, enrichis des éléments nouveaux (mode erreur, définition de type, voir le livre)
 
