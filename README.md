@@ -37,6 +37,15 @@ Il serait interessant de les redécorer comme avant la 1.8 pour les rendre sympa
 Il faut créer un format d'auto documentation satisfaisant pour la LibLapin - je n'aime ni le rendu de doxygen ni l'uatre dont j'ai oublié le nom. En utilisant libcrawler pour
 parcourir les .h, je devrais pouvoir extraire les commentaires de descriptions des éléments de la Lib et en sortir un site web dans le style de ce qui est liblapin.org.
 
+L'allocateur de la LibLapin n'a peut etre pas de raison d'être: l'idée consistant à générer un espace mémoire contrôlé pour permetre la sauvegarde du tas et la correction des pointeurs est interessante mais risque de compromettre la stabilité de l'ensemble de la bibliothèque.
+
+L'appel de fonction via le style "nommé" devra être utilisé et devra être renud accessible via un suffixe ajouté au nom des fonctions.
+Ce mécanisme sera terribleement utile pour les fonctions prenant beaucoup de paramètres, et disposer d'un suffixe plutot que d'une unique fonction
+permettra de tout de meme proposer une API simple utile lors des cours de programmation graphique.
+
+Le nouveau pixelarray doit pouvoir faire du 64b (full float) 32b 24b 16b 8b 4b 2b 1b.
+Le nouveau t_bunny_effect doit permettre de gérer en plus du sample par seconde un nombre de canaux indéterminé (mono, stéreo, etc.)
+
 Il faut permettre la construction d'un module de type .deb et d'un .rpm qui pourraient etre ajouté a des repos.
 Il faut un discord LibLapin a coté du site, ou un forum de discussion.
 
