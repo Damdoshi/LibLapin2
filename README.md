@@ -34,7 +34,9 @@ En même temps, les fonctions et expressions ne doivent plus etre conservé a un
 l'écriture à l'avenir de debugger et également pouvoir se placer a une position intermediaire facilitant les tests.
 De plus, les performences du module de configuration sont minables. Si ses capacités sont très interessantes, il convient d'améliorer les performences de manière drastique.
 Les litteraux doivent également être enrichi, afin de permettre d'établir comme valeur des noeuds ou des tableaux complets.
-Le type pointeur est également mysterieux...
+Le type pointeur est également mysterieux: c'est une "rawstring", en gros une chaine sans guiellemets, un poil naze.
+De plus, la notion de "fileroot" concurencie celle de "root" tout court lors de la résolution de certaines directives et d'adresses et c'est un problème: il faut clarifier
+en établissant clairement une structure contexte: racine, racine du fichier courant, variables locales, espace local (endroit ou la fonction est écrite), espace artificiel (mot clef with)
 
 Il faut écrire des tutoriaux en même temps que ré écrire chaque module.
 Il faut documenter les fichiers .h de sorte a ce qu'il puisse etre possible de les lire comme étant une doc.
