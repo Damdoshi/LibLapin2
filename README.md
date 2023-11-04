@@ -44,6 +44,8 @@ parcourir les .h, je devrais pouvoir extraire les commentaires de descriptions d
 
 L'allocateur de la LibLapin n'a peut etre pas de raison d'être: l'idée consistant à générer un espace mémoire contrôlé pour permetre la sauvegarde du tas et la correction des pointeurs est interessante mais risque de compromettre la stabilité de l'ensemble de la bibliothèque.
 
+Les conteneurs pourraient être basé sur ceux de C++ pour les plus complexes, sinon basé au choix sur ds tableaux ou des listes pour les plus simples.
+
 L'appel de fonction via le style "nommé" devra être utilisé et devra être renud accessible via un suffixe ajouté au nom des fonctions.
 Ce mécanisme sera terribleement utile pour les fonctions prenant beaucoup de paramètres, et disposer d'un suffixe plutot que d'une unique fonction
 permettra de tout de meme proposer une API simple utile lors des cours de programmation graphique.
