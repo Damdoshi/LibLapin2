@@ -7,7 +7,8 @@ Quelques idées peuvent être trouvées ici https://github.com/Damdoshi/LibLapin
 
 L'objectif de LibLapin 2 est d'être une ré écriture complète de la première LibLapin tout en restant autant que possible compatible,
 en permettant la systématisation de certains élément interessant de la LibLapin qui sont resté parcelaire (mécanismes de chargement, lecture, déchifrage, configuration, etc. pouvant etre chainée)
-et en éliminant les répétitions qui peuvent être trouvées (bunny_loop, bunny_loop_mw, bunny_start_, bunny_start_style, etc.)
+et en éliminant les répétitions qui peuvent être trouvées (bunny_loop, bunny_loop_mw, bunny_start_, bunny_start_style, etc.) La possibilité de configurer n'importe quoi dans n'importe quel
+format en particulier est très interessant - même si cela impliquera forcment pour certains formats de réaliser plusieurs systèmes de configuration (node base (ini, dabsic, json) vs array base (xml...))
 
 Un autre objectif est d'exploiter plus fréquemment C++ et de limiter les interfaces internes C pour leur favoriser des interfaces plus C++ienne.
 La bibliothèque exterieure demeurera C.
