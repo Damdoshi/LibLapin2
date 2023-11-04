@@ -49,4 +49,8 @@ Le nouveau t_bunny_effect doit permettre de gérer en plus du sample par seconde
 Il faut permettre la construction d'un module de type .deb et d'un .rpm qui pourraient etre ajouté a des repos.
 Il faut un discord LibLapin a coté du site, ou un forum de discussion.
 
+Le système de "scream log", "scream error" est beaucoup trop verbeux, beaucoup trop casse pied à manipuler, et son implémentation à base de macro est très embetante.
+Il faut inventer un nouveau mécanisme qui permette d'améliorer ces éléments. L'un des principaux défaut est le mélange des erreurs de type "impossible de faire X",
+et des erreurs de type "je ne trouve pas X" (dans une liste ou finalement, bah, X sera trouvé, sauf que chaque essai donne un log...). Peut etre que la fonction appelante
+devrait être responsable d'indiquer si oui ou non le log interesse?
 
