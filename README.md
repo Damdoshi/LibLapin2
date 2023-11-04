@@ -30,6 +30,7 @@ Dabsic doit devenir plus fiable et intégrer l'ensemble des éléments précéde
 Bunny configuration doit être construit sur une classe noeud plus riche et gérant l'intégralité des aspects qui ici ont parfois été ajouté après et source d'erreur.
 En même temps, les fonctions et expressions ne doivent plus etre conservé a un format d'arbre à parcourir mais être compilé en sequence afin de permettre
 l'écriture à l'avenir de debugger et également pouvoir se placer a une position intermediaire facilitant les tests.
+De plus, les performences du module de configuration sont minables. Si ses capacités sont très interessantes, il convient d'améliorer les performences de manière drastique.
 
 Il faut écrire des tutoriaux en même temps que ré écrire chaque module.
 Il faut documenter les fichiers .h de sorte a ce qu'il puisse etre possible de les lire comme étant une doc.
